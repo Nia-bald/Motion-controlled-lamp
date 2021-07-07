@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @Nia-bald
 - 👀 I’m interested in your mom
 - 🌱 I’m currently learning to have coitus with your mom
-- 💞️ I’m looking to collaborate on your mom
+- 💞️ I’m looking to collaborate with your mom on human making project
 - 📫 How to reach me : ask your mom
