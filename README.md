@@ -1,5 +1,1 @@
-- 👋 Hi, I’m @Nia-bald
-- 👀 I’m interested in your mom
-- 🌱 I’m currently learning to have coitus with your mom
-- 💞️ I’m looking to collaborate with your mom on human making project
-- 📫 How to reach me : ask your mom
+Hi, I’m Niare, I am currently a student at IIT Bombay doing B.Tech in Engineering Physics.
