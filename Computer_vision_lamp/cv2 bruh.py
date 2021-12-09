@@ -26,13 +26,16 @@ while True:
     if len(lmList) != 0:  # if there are no hands on screen it will be a null list
         i = 9
         print(lmList[i])
-        x, y = int(np.interp(lmList[i][1], [0, 640], [0, 180])), int(np.interp(lmList[i][2], [0, 480], [0, 180]))
-        arduinoData.write(bytes("X" + str(x) + "Y" + str(y), 'UTF-8'))
+        x, y = int(np.interp(lmList[i][1], [220, 420], [0, 180])), int(np.interp(lmList[i][2], [140, 340], [0, 180]))
+        if math.hypot(lmList[20][1] - lmList[4][1], lmList[20][2] - lmList[4][2]) < 20:
+            arduinoData.write(bytes("X" + str(x) + "Y" + str(y), 'UTF-8'))
+        print(math.hypot(lmList[20][1] - lmList[4][1], lmList[20][2] - lmList[4][2]))
+
     cTime = time.time()
     fps = 1 / (cTime - pTime)
     pTime = cTime
     cv2.putText(img, str(int(fps)), (10, 70), cv2.FONT_HERSHEY_PLAIN, 3, (255, 0, 255), 3)
-    cv2.imshow('jj', img)
+    #cv2.imshow('jj', img)
 
     if pLenlist != 0:
         time.sleep(3)
